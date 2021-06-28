@@ -1,0 +1,14 @@
+﻿SilverLinkClone
+5/12/2014
+Timothy 'Geekboy1011' Keller
+
+
+Prepare Repository for Building:
+    extract lufa source directory under LUFA-src in root of this repository
+To Build run:
+    make all
+    
+
+Note: still in very alpha and the code base will probably change over a few times. 
+It how ever is a fully functional proof of concept and works 90% of the time. There
+are some edge cases that are not marked out yet

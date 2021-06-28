@@ -1,0 +1,85 @@
+Information for device TI-GRAPH LINK USB (VID=0x0451 PID=0xE001): 
+
+Connection Information:
+------------------------------
+Connection status: Device connected
+Device actual bus speed: Full
+Device is hub: No
+Device adress: 0x0001
+Current configuration value: 0x01
+Number of open pipes: 2
+
+Device Descriptor:
+------------------------------
+0x12	bLength
+0x01	bDescriptorType
+0x0110	bcdUSB
+0x00	bDeviceClass   
+0x00	bDeviceSubClass   
+0x00	bDeviceProtocol   
+0x08	bMaxPacketSize0   (8 Bytes)
+0x0451	idVendor
+0xE001	idProduct
+0x0103	bcdDevice
+0x01	iManufacturer   "Texas Instruments Incorporated"
+0x02	iProduct   "TI-GRAPH LINK USB"
+0x00	iSerialNumber
+0x01	bNumConfigurations
+
+Configuration Descriptor:
+------------------------------
+0x09	bLength
+0x02	bDescriptorType
+0x0020	wTotalLength
+0x01	bNumInterfaces
+0x01	bConfigurationValue
+0x00	iConfiguration
+0xA0	bmAttributes   (Bus-powered Device, Remote-Wakeup)
+0x32	bMaxPower   (100 mA)
+
+Interface Descriptor:
+------------------------------
+0x09	bLength
+0x04	bDescriptorType
+0x00	bInterfaceNumber
+0x00	bAlternateSetting
+0x02	bNumEndPoints
+0xFF	bInterfaceClass   (Vendor specific)
+0x00	bInterfaceSubClass   
+0x00	bInterfaceProtocol   
+0x00	iInterface
+
+Endpoint Descriptor:
+------------------------------
+0x07	bLength
+0x05	bDescriptorType
+0x81	bEndpointAddress   (IN Endpoint)
+0x02	bmAttributes	(Transfer: Bulk / Synch: None / Usage: Data)
+0x0020	wMaxPacketSize   (32 Bytes) 
+0x00	bInterval
+
+Endpoint Descriptor:
+------------------------------
+0x07	bLength
+0x05	bDescriptorType
+0x02	bEndpointAddress   (OUT Endpoint)
+0x02	bmAttributes	(Transfer: Bulk / Synch: None / Usage: Data)
+0x0020	wMaxPacketSize   (32 Bytes) 
+0x00	bInterval
+
+String Descriptor Table
+--------------------------------
+Index  LANGID  String
+0x00   0x0000  0x0409 
+0x01   0x0409  "Texas Instruments Incorporated"
+0x02   0x0409  "TI-GRAPH LINK USB"
+0xEE   0x0000  Request failed with 0x0000001F
+
+------------------------------
+
+Connection path for device: 
+Standard OpenHCD USB Host Controller
+Root Hub
+TI-GRAPH LINK USB (VID=0x0451 PID=0xE001)
+
+Brought to you by TDD v1.83.0, Mar  7 2014, 14:22:05

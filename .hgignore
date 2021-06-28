@@ -1,0 +1,15 @@
+﻿syntax: glob
+LUFA-src/*
+SilverLinkClone.elf
+SilverLinkClone.hex
+SilverLinkClone.map
+SilverLinkClone.bin
+SilverLinkClone.lss
+SilverLinkClone.eep
+SilverLinkClone.sym
+syntax: regexp
+.*\.o$
+.*\.d$
+.*\.atsln
+.*\.atsuo
+.*\.cproj
